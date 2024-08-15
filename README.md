@@ -35,7 +35,8 @@ Adicinamos também a variável de feriado, no caso os feriados brasileiros. Mant
 -   Após o treinamento, examine as métricas de performance do modelo.
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
-   <img width="959" alt="image" src="https://github.com/user-attachments/assets/c3aba17f-118a-4d57-b39a-291e5a737056">
+   <<img width="959" alt="image" src="https://github.com/user-attachments/assets/c99b3011-8553-44df-9d99-49a9f8c21c44">
+
 
 
 ### 4. Prever
