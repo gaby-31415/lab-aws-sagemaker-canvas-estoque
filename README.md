@@ -2,16 +2,17 @@
 
 Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). 
 
-## 🎯 Passo a Passo para inserção de dados 
+## 🎯 Usando o Data Wrangler
 
 <img width="959" alt="Data flow" src="https://github.com/user-attachments/assets/6d79a2eb-f008-422c-aea6-cdf4bea7da68">
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/b287fed0-a1d5-4dcb-9979-e4e2f38ee523">
 
+É possível rodar uma análise da qualidade dos dados inseridos, podendo analisar possíveis duplicações, assim como anomalias em células e colunas antes de prosseguir.
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/087979ec-5a3b-4b08-8d26-79efa32dbb15">
 
 
 
-## 🚀 Passo a Passo
 
 ### 1. Selecionar Dataset
 
@@ -21,15 +22,21 @@ Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com Sag
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+Em nosso caso, iremos analisar a previsão de estoque de acordo com o preço dos produtos
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/ef777326-6e9b-433c-8d60-682ed0ab2d2d">
+
+Adicinamos também a variável de feriado, no caso os feriados brasileiros. Mantivemos o modelo de Time & Series forecast, já que queremos analisar dados passados e prever o futuro. 
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/8d2df409-26fe-472c-8a08-c17638abb9be">
+
+
 
 ### 3. Analisar
 
 -   Após o treinamento, examine as métricas de performance do modelo.
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+   <img width="959" alt="image" src="https://github.com/user-attachments/assets/c3aba17f-118a-4d57-b39a-291e5a737056">
+
 
 ### 4. Prever
 
