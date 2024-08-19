@@ -1,8 +1,8 @@
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). 
+O SageMaker Canvas é uma ferramenta da Amazon Web Services (AWS) que permite a criação de modelos de machine learning sem a necessidade de escrever código. Voltado para analistas e profissionais de negócios, o Canvas facilita o desenvolvimento de previsões baseadas em dados usando uma interface visual intuitiva. Ele oferece integração com outras soluções AWS, como o SageMaker, para que usuários possam preparar dados, treinar modelos e gerar previsões de forma simples e eficiente, tudo em um ambiente visual drag-and-drop.
 
-## 🎯 Usando o Data Wrangler
+## Usando o Data Wrangler
 
 <img width="959" alt="Data flow" src="https://github.com/user-attachments/assets/6d79a2eb-f008-422c-aea6-cdf4bea7da68">
 
