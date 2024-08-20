@@ -63,14 +63,23 @@ Aqui também podemos fazer ajustes no modelo criado se necessário e também tre
 
    <<img width="959" alt="image" src="https://github.com/user-attachments/assets/c99b3011-8553-44df-9d99-49a9f8c21c44">
 
+Após a conclusão da análise, o modelo nos retorna alguns dados de métricas de erro amplamente utilizadas em modelos de Machine Learning e análise de Forecast em geral. 
+
+Algumas definições, resumidamente, das métricas na imagem apresentada: 
+
+- Avg. wQL (Weighted Quantile Loss Média): Avalia a precisão das previsões com base em quantis, ponderando erros de acordo com sua importância. É útil em previsões de séries temporais, especialmente para intervalos de confiança.
+
+- MAPE (Mean Absolute Percentage Error): Mede a precisão das previsões em termos percentuais, calculando a média das diferenças absolutas entre os valores previstos e os reais, divididas pelos valores reais. Expressa o erro como uma porcentagem.
+
+- WAPE (Weighted Absolute Percentage Error): Similar ao MAPE, mas pondera os erros absolutos pelo valor total observado, o que dá uma visão mais balanceada do erro em relação ao tamanho dos dados.
+
+- RMSE (Root Mean Square Error): Mede a precisão das previsões calculando a raiz quadrada da média dos erros quadráticos. Penaliza erros grandes, tornando-o sensível a outliers.
+
+- MASE (Mean Absolute Scaled Error): Compara a precisão de um modelo de previsão com um modelo de referência, como uma previsão ingênua (último valor observado). É escalado, o que permite a comparação entre diferentes séries temporais.
 
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+Agora já podemos utilizar o modelo gerado para realizar previsões de estoque. 
 
-## 🤔 Dúvidas?
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
