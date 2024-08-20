@@ -4,6 +4,8 @@ O SageMaker Canvas é uma ferramenta da Amazon Web Services (AWS) que permite a 
 
 ## Usando o Data Wrangler
 
+Nesta tela, iremos preparar os dados que iremos analisar com o Data Wrangler. 
+
 <img width="959" alt="Data flow" src="https://github.com/user-attachments/assets/6d79a2eb-f008-422c-aea6-cdf4bea7da68">
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/b287fed0-a1d5-4dcb-9979-e4e2f38ee523">
