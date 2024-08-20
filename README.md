@@ -10,14 +10,18 @@ Aqui inserimos o nosso dataset (utilizamos um arquivo .csv com dados de estoque)
 
 Agora passaremos a nossa planilha por uma avaliação de qualidade de dados, onde também podemos limitar a quantidade de dados a serem analisados.
 
+
 <img width="959" alt="Data flow" src="https://github.com/user-attachments/assets/6d79a2eb-f008-422c-aea6-cdf4bea7da68">
+
 
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/b287fed0-a1d5-4dcb-9979-e4e2f38ee523">
 
+
 É possível rodar uma análise da qualidade dos dados inseridos, onde a ferramenta retorna um feedback acerca dos dados inseridos, assim podendo analisar possíveis duplicações, anomalias em células e colunas antes de prosseguir.
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/087979ec-5a3b-4b08-8d26-79efa32dbb15">
+
 
 É possível, desta tela já seguirmos para a próxima fase de criação do modelo.
 
@@ -27,6 +31,7 @@ Agora passaremos a nossa planilha por uma avaliação de qualidade de dados, ond
 ### 1. Aba Selecionar Dataset
 
 Nesta aba, caso não tenha utilizado o Data Wrangler para pré analisar e tratar os dados, você pode selecionar um dos datasets disponibilizados pelo SageMaker Canvas para treinar o seu modelo, ou utilizar o seu próprio Dataset, assim utilizando casos reais de sua preferência. 
+
 
 ### 2. Construir/Treinar
 
@@ -44,12 +49,18 @@ Adicinamos também uma variável de feriado, no caso os feriados brasileiros. Ma
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/8d2df409-26fe-472c-8a08-c17638abb9be">
 
 
+A ferramenta recomenda alguns parâmetros que podem ser alterados conforme necessidade e desejo do usuário.
+
+
+
+
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+Após o treinamento, que pode ser rápido (utilizando o quick build) ou mais preciso com um tempo maior para conclusão (standard build) podemos examinar as métricas de performance do nosso modelo criado. 
+
+Aqui também podemos fazer ajustes no modelo criado se necessário e também treiná-lo até obter um desempenho satisfatório.
+
    <<img width="959" alt="image" src="https://github.com/user-attachments/assets/c99b3011-8553-44df-9d99-49a9f8c21c44">
 
 
