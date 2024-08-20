@@ -80,6 +80,17 @@ Algumas definições, resumidamente, das métricas na imagem apresentada:
 
 ### 4. Prever
 
-Agora já podemos utilizar o modelo gerado para realizar previsões de estoque. 
+Agora já podemos utilizar o modelo gerado para realizar previsões de estoque, inclusive selecionando a coluna de impacto que queremos prever. 
+Aqui podemos realizar previsões interativas e análises de cenários hipotéticos de maneira fácil e rápida. 
+
+Nesta etapa não conseguimos prosseguir com o modelo utilizado neste artigo, devido a um erro de servidor na plataforma nos dois dias testados. 
+
+
+### 5. Conclusão
+
+O Canvas facilita o desenvolvimento de previsões, é uma plataforma intuitiva e interativa onde o usuário não precisa usar nenhum código para construção dos modelos. 
+Possui integração com diversas plataformas e serviços da Amazon, como a inteligência artificial Claude AI. Com o SageMaker Canvas, podemos preparar dados, treinar modelos e gerar previsões de forma simples e eficiente. 
+
+
 
 
