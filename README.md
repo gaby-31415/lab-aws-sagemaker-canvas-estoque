@@ -6,28 +6,41 @@ O SageMaker Canvas é uma ferramenta da Amazon Web Services (AWS) que permite a 
 
 Nesta tela, iremos preparar os dados que iremos analisar com o Data Wrangler. 
 
+Aqui inserimos o nosso dataset (utilizamos um arquivo .csv com dados de estoque)
+
+Agora passaremos a nossa planilha por uma avaliação de qualidade de dados, onde também podemos limitar a quantidade de dados a serem analisados.
+
 <img width="959" alt="Data flow" src="https://github.com/user-attachments/assets/6d79a2eb-f008-422c-aea6-cdf4bea7da68">
+
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/b287fed0-a1d5-4dcb-9979-e4e2f38ee523">
 
-É possível rodar uma análise da qualidade dos dados inseridos, podendo analisar possíveis duplicações, assim como anomalias em células e colunas antes de prosseguir.
+É possível rodar uma análise da qualidade dos dados inseridos, onde a ferramenta retorna um feedback acerca dos dados inseridos, assim podendo analisar possíveis duplicações, anomalias em células e colunas antes de prosseguir.
+
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/087979ec-5a3b-4b08-8d26-79efa32dbb15">
 
+É possível, desta tela já seguirmos para a próxima fase de criação do modelo.
 
 
 
-### 1. Selecionar Dataset
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+### 1. Aba Selecionar Dataset
+
+Nesta aba, caso não tenha utilizado o Data Wrangler para pré analisar e tratar os dados, você pode selecionar um dos datasets disponibilizados pelo SageMaker Canvas para treinar o seu modelo, ou utilizar o seu próprio Dataset, assim utilizando casos reais de sua preferência. 
 
 ### 2. Construir/Treinar
 
-Em nosso caso, iremos analisar a previsão de estoque de acordo com o preço dos produtos
+Aqui nós podemos utilizar o AutoML para explorar e otimizar automaticamente modelos para casos específicos.
+
+Podemos treinar modelos para regressão, classificação, previsão de séries temporais, processamento de linguagem natural, visão computacional e ajuste fino de modelos de base com apenas alguns cliques.
+
+Em nosso caso, iremos analisar o estoque de acordo com o preço dos produtos.
+
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/ef777326-6e9b-433c-8d60-682ed0ab2d2d">
 
-Adicinamos também a variável de feriado, no caso os feriados brasileiros. Mantivemos o modelo de Time & Series forecast, já que queremos analisar dados passados e prever o futuro. 
+
+Adicinamos também uma variável de feriado, no caso os feriados brasileiros. Mantivemos o modelo de Time & Series forecast, já que queremos analisar dados passados e prever o futuro. 
+
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/8d2df409-26fe-472c-8a08-c17638abb9be">
 
 
